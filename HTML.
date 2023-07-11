@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link CSS-->
+    <link rel="stylesheet" href="./style.css">
+    <title>Reponsive Navbar</title>
+</head>
+<body>
+
+    <div class="navbar" id="navbar">
+        <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuKut3AUrsrq9UClT0sQNHbsjoKJCMHgFHZ8dCaB8&s">
+        <div class="menu" id="menu">
+          <a class="menu-item" href="#">Home</a>
+          <a class="menu-item" href="#">About</a>
+          <a class="menu-item" href="#">Services</a>
+          <a class="menu-item" href="#">Contact</a>
+        </div>
+        <div class="hamburger-menu" id="hamburgerMenu" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+
+    <!--link javaScript-->
+    <script src="./responsive_navbar.js"></script>
+</body>
+</html>
